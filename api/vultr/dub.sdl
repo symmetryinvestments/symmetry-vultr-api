@@ -1,0 +1,8 @@
+name "vultr"
+description "D Language implementation of Vultr API."
+copyright "Copyright © 2015, Laeeth Isharc, Kaleidic Associates, and Vultr"
+authors "Laeeth Isharc and Kaleidic Associates"
+targetType "library"
+dependency "kaleidic-auth" version="*"
+dependency "kaleidic-helper" version="*"
+libs "curl"
