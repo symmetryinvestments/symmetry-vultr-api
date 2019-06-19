@@ -2,7 +2,7 @@ module kaleidic.api.vultr;
 import std.stdio;
 import std.json;
 import std.net.curl;
-import std.exception:Exception,enforce,assumeUnique;
+import std.exception : enforce,assumeUnique;
 import std.conv:to;
 import std.algorithm:countUntil,map,each;
 import std.traits:EnumMembers;
