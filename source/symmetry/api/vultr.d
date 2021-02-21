@@ -1,4 +1,4 @@
-module kaleidic.api.vultr;
+module symmetry.api.vultr;
 import std.stdio;
 import std.json;
 import std.net.curl;
@@ -9,8 +9,7 @@ import std.traits:EnumMembers;
 import std.array:array,appender;
 import std.format:format;
 import std.variant:Algebraic;
-import kaleidic.auth;
-import kaleidic.helper.prettyjson;
+import symmetry.helper.prettyjson;
 
 /**
     Implemented in the D Programming Language 2015 by Laeeth Isharc and Kaleidic Associates

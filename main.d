@@ -1,14 +1,14 @@
-import kaleidic.api.vultr;
-import kaleidic.auth; // replace by your own key
-import kaleidic.helper.prettyjson;
+import symmetry.api.vultr;
+import symmetry.helper.prettyjson;
 import std.json;
 import std.stdio;
 
 
 void main(string[] args)
 {
-    auto vultr = VultrAPI(VultrAPIKey);
-    auto result = Droplet.create( ocean,
+	import std.process : environment;
+    auto vultr = VultrAPI(environment.get("VULTR_API_KEY",""));
+    auto result = Droplet.create( vultr,
                                 "newemail.kaleidicassociates.com",
                                 OceanRegion.lon1,
                                 "1Gb",

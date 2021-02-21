@@ -1,0 +1,6 @@
+name "symmetry-vultr-api"
+description "D Language implementation of Vultr API."
+copyright "Copyright © 2015-2020, Laeeth Isharc, Kaleidic Associates, Symmetry Investments and Vultr"
+authors "Laeeth Isharc"
+targetType "library"
+libs "curl"
